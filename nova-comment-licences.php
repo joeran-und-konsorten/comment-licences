@@ -29,7 +29,6 @@
 
 wp_enqueue_style( 'nova-comment-licences-style', plugin_dir_url( __FILE__ ) . '/style.css' );
 
-//Modify Comment-Content: Add Custom Field Values according licence
 add_filter( 'get_comment_date', 'add_licence', 10, 3 );
 
 function add_licence( $date, $d, $comment ) {
@@ -116,7 +115,6 @@ function add_licence( $date, $d, $comment ) {
 	}
 
 }
-
 
 //register field group
 if ( function_exists( 'acf_add_local_field_group' ) ) :
