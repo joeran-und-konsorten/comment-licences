@@ -1,0 +1,14 @@
+
+.licenceimg{
+	width: 100%;
+	max-width: 70px;
+	height: auto;
+	display: inline-block;
+	margin-right: 12px;
+	float: left;
+}
+
+.licencetext{
+	font-size: 0.7em;
+	color: #c7c7c7;
+}
